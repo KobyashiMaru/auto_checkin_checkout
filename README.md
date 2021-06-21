@@ -23,7 +23,7 @@ Run all
 
 
 
-## Chenge webdriver to chrome
+## Change webdriver to chrome
 
 Step 1.
 
@@ -33,8 +33,10 @@ https://chromedriver.chromium.org/downloads
 
 Step 2. 
 
+Edit out ```wd = webdriver.Firefox()``` as ```wd = webdriver.Chrome()```
+
 ![image](https://user-images.githubusercontent.com/12037721/122710258-81393400-d292-11eb-9cf6-3de60d5964d6.png)
 
-Edit out ```wd = webdriver.Firefox()``` to ```wd = webdriver.Chrome()```
+
 
 
